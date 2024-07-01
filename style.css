@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-image: url(./img/5183000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+}
+.task-area {
+  border: 1px solid black;
+}
+.task-tabs {
+  display: flex;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.task-tabs div {
+  padding: 1rem;
+}
+
+#under-line {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 80px;
+  left: 0px;
+  top: 52px;
+  padding: 0;
+  /* margin: 0; */
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
