@@ -44,3 +44,7 @@ body {
 .task-complete {
   background-color: rgb(179, 225, 253);
 }
+
+.task-tabs {
+ cursor: pointer;
+}
