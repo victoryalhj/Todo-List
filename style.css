@@ -30,6 +30,7 @@ h1 {
   background-color: rgb(255, 223, 228);
   border: 1px solid black;
   border-radius: 5px;
+  width: 150px;
 }
 .task-area {
   border: 0.5px solid black;
@@ -42,6 +43,7 @@ h1 {
   position: relative;
   font-weight: 600;
   cursor: pointer;
+  align-items: flex-end;
 }
 .task-tabs div {
   padding: 1rem;
@@ -53,7 +55,7 @@ h1 {
   position: absolute;
   width: 80px;
   left: 0px;
-  top: 52px;
+  bottom: 0;
   padding: 0;
   transition: 0.5s;
 }
