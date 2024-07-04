@@ -6,17 +6,42 @@ body {
   height: 100vh;
 }
 .container {
-  background-color: #fff;
-  min-height: 100vh;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80vw;
+  min-height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+
+}
+.input-area {
+ margin-bottom: 10px;
+}
+#task-input {
+  background-color: rgb(255, 223, 228);
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .task-area {
-  border: 1px solid black;
+  border: 0.5px solid black;
+  border-radius: 5px;
+
 }
 .task-tabs {
   display: flex;
   border-bottom: 1px solid black;
   position: relative;
+  font-weight: 600;
+  cursor: pointer;
 }
 .task-tabs div {
   padding: 1rem;
@@ -43,9 +68,14 @@ body {
 }
 
 .task-complete {
-  background-color: rgb(179, 225, 253);
+  background-color: rgb(199, 241, 245);
 }
 
-.task-tabs {
- cursor: pointer;
+button {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 5px;
+}
+button#add-button {
+  font-weight: 700;
 }
